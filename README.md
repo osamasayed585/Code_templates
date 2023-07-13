@@ -129,7 +129,7 @@ private fun observe$NAME$() {
         }
      }
 ```
-# Lie template for mutableStateFlow
+# Live template for mutableStateFlow
 ```Kotlin
     private var _$NAME$: MutableStateFlow<ViewState<$RESPONSE$>?> =
         MutableStateFlow(null)
