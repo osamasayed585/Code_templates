@@ -1,6 +1,8 @@
-# Code templates
+# Live Templates
+## This The following code snippet refers to code templates that we have in Android Studio 
 
-# View model template
+
+## View model template
 
 ```Kotlin  #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME}#end
 
@@ -36,7 +38,7 @@ class ${NAME} @Inject constructor(
     }
 }
 ```
-# Adapter template
+## Adapter template
 ```Kotlin 
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME}#end
 
@@ -104,7 +106,7 @@ class ${NAME} : RecyclerView.Adapter<${NAME}.${Model}ViewHolder >()  {
 }
 
 ```
-# Live template for init Observe 
+## Live template for init Observe 
 ```Kotlin
 private fun observe$NAME$() {
     lifecycleScope.launch {
